@@ -15,5 +15,5 @@ use App\Http\Controllers\ApiRick;
 */
 
 Route::get('/', \App\Http\Livewire\home::class);
-Route::get('/ricks', [ApiRick::class, 'index']);
+Route::get('/index', [ApiRick::class, 'index']);
 Route::get('/show/{id}', [ApiRick::class, 'show']);
